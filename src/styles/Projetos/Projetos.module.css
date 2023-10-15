@@ -73,9 +73,11 @@
 
 }
 
+
+
 @media(max-width:420px) {
     .CardContainer {
-        width: 95%;
+        width: 80%;
         height: 350px;
 
 

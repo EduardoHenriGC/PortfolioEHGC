@@ -2,14 +2,16 @@
 
     display: flex;
     flex-direction: column;
-    width: 1000px;
-    height: 600px;
-    margin: 70px auto;
+    width: 66%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     background-color: #111217;
-    border-radius: 15px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     border: 1px solid #242529;
+
+
 
 
 
@@ -56,7 +58,37 @@
 
 @media(max-width:1050px) {
     .Container {
-        width: 90%;
+        width: 66%;
 
+    }
+
+
+
+}
+
+@media(max-width:850px) {
+    .Container {
+        width: 63%;
+    }
+}
+
+@media(max-width:700px) {
+    .Container {
+        width: 57%;
+    }
+}
+
+@media(max-width:630px) {
+
+    .Container {
+        width: 100%;
+        border: none;
+        border-top-right-radius: 0.5rem;
+
+
+    }
+
+    .Container h1 {
+        margin-top: 40px;
     }
 }

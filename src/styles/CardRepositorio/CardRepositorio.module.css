@@ -149,8 +149,20 @@
         width: 93%;
     }
 
+    .LeftContent {
+        width: 65px;
+        height: 65px;
+        margin: 0;
+
+
+
+    }
+
     .left {
-        width: 35%;
+        width: 30%;
+
+        padding: 0;
+
     }
 
     .LeftContent {
@@ -159,7 +171,7 @@
 
     .right {
 
-        width: 65%;
+        width: 70%;
     }
 
     .right a {
@@ -172,6 +184,7 @@
     .LeftContent {
         width: 50px;
         height: 50px;
+
     }
 
     .left {

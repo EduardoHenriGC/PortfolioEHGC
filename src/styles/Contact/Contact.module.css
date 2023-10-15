@@ -1,0 +1,36 @@
+.Container {
+
+    display: flex;
+
+    height: 600px;
+    align-items: center;
+    margin: 70px auto;
+    width: 1000px;
+    border: 1px solid #242529;
+    border-radius: 0.5rem;
+
+
+}
+
+
+@media(max-width:1050px) {
+
+    .Container {
+
+        width: 95%;
+    }
+}
+
+@media(max-width:630px) {
+
+    .Container {
+
+        flex-direction: column;
+        width: 97%;
+        height: 100%;
+
+        background-color: #111217;
+
+    }
+
+}

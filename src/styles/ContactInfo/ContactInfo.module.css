@@ -1,0 +1,124 @@
+.Container {
+
+
+    height: 100%;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #0f3d74;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.ContentInfo {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+
+
+
+}
+
+.ContentInfo div {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+
+
+
+.btnCopy {
+    cursor: pointer;
+}
+
+.btnCopy:hover {
+    color: gold;
+}
+
+
+
+.Container h2 {
+
+    position: absolute;
+    top: 50px;
+    color: #fff;
+}
+
+.Container h3 {
+
+    color: #0458b8;
+}
+
+.Container p {
+
+    color: #d3d3d3;
+}
+
+.CopiedMessage {}
+
+
+@media(max-width:1050px) {
+
+    .Container {
+
+        width: 34%;
+    }
+}
+
+
+
+@media(max-width:850px) {
+    .Container {
+        width: 37%;
+
+    }
+
+    .ContentInfo {
+
+        width: 240px;
+
+
+    }
+
+
+
+
+}
+
+@media(max-width:700px) {
+    .Container {
+        width: 43%;
+
+    }
+
+}
+
+@media(max-width:630px) {
+
+    .Container {
+        width: 100%;
+        margin: 70px auto;
+        border: none;
+        border-radius: 0;
+        border-top: 1px solid blue;
+        gap: 45px;
+
+    }
+
+
+
+
+    .Container h2 {
+
+        position: relative;
+        margin-bottom: 40px;
+
+    }
+}
