@@ -1,0 +1,174 @@
+.logo {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+
+.menuList li {
+    display: none;
+}
+
+.menuIcon {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    margin: 0.5rem auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.menuListClosed {
+    display: none;
+
+}
+
+/* Animação para o menu responsivo */
+.menuList {
+    position: absolute;
+    top: 65px;
+    left: 3px;
+    right: 3px;
+    width: 97%;
+    background: #111;
+    padding: 3px;
+}
+
+.menuListOpen {
+    border: 1px solid #313237;
+    border-radius: 0.25rem;
+    z-index: 9999;
+}
+
+.menuList li {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuList a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid transparent;
+
+
+
+
+}
+
+.menuList a:hover {
+    color: #0064d8;
+    border: 1px solid #313237;
+    border-radius: 0.5rem;
+}
+
+
+
+.open .menuIcon:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.open .menuIcon:nth-child(2) {
+    opacity: 0;
+}
+
+.open .menuIcon:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.container ul li a.selected {
+    background-color: #0064d8;
+    border-radius: 0.5rem;
+
+    color: #d8d8cc;
+    border: 1px solid transparent;
+}
+
+@media (min-width: 1050px) {
+    .container {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 30px;
+
+
+    }
+
+    .container span {
+        margin-top: 75px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .menuList {
+        width: 455px;
+        opacity: 1;
+        background-color: #1a1b20;
+        display: flex;
+        flex-direction: row;
+
+        border-radius: 50px;
+        position: relative;
+        gap: 5px;
+
+
+
+    }
+
+
+
+
+    .menuList li a {
+        padding: 13px;
+        font-size: 0.9rem;
+        border-radius: 50px;
+        cursor: pointer;
+        color: #767673;
+        text-decoration: none;
+        border: 1px solid transparent;
+        margin: 5px;
+        text-align: center;
+        border-radius: 0.25rem;
+
+    }
+
+    /* Style the selected link */
+    .container ul li a:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #313237;
+        transition: 0.3s ease-in;
+    }
+
+    /* Apply the "selected" class based on the current route */
+    .container ul li a.selected {
+        background-color: #0064d8;
+        color: #d8d8cc;
+        border: 1px solid transparent;
+        border-radius: 50px;
+
+    }
+
+}
+
+@media(min-width:900px) and (max-width:1200px) {
+
+    .logo {
+        margin-left: 70px;
+    }
+}

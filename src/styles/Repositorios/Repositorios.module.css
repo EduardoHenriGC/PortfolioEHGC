@@ -1,0 +1,17 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 1000px;
+    margin: 70px auto;
+
+}
+
+@media(max-width:1050px) {
+    .Container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

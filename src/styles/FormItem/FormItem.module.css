@@ -1,0 +1,62 @@
+.Container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.Container input {
+
+
+    width: 500px;
+    height: 25px;
+    border-radius: 0.75rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #242529;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+.Container textarea {
+
+    width: 500px;
+    height: 100px;
+    border-radius: 0.75rem;
+    padding: 10px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #242529;
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+
+
+.Container input:focus,
+.Container textarea:focus {
+
+    outline: 1px solid #0064d8;
+}
+
+
+
+
+
+
+@media(max-width:800px) {
+
+    .Container {
+        width: 80%;
+    }
+
+    .Container input {
+
+        width: 100%;
+    }
+
+    .Container textarea {
+        width: 100%;
+    }
+}

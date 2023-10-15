@@ -1,0 +1,62 @@
+.Container {
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    margin: 70px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #111217;
+    border-radius: 15px;
+    border: 1px solid #242529;
+
+
+
+}
+
+.Container h1 {
+    color: #fff;
+}
+
+.Container form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+
+}
+
+.Container button {
+    background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 1px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.Container button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:1050px) {
+    .Container {
+        width: 90%;
+
+    }
+}
