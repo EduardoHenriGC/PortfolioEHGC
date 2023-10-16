@@ -21,11 +21,15 @@ export default function ContactFormHooks() {
                 resetForm();
 
 
+
+
             } else {
                 console.log('Ocorreu um erro ao enviar a mensagem.');
+
             }
         } catch (error) {
             console.error(error);
+
         }
     };
 

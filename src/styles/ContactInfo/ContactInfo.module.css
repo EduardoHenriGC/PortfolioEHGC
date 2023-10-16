@@ -1,12 +1,9 @@
 .Container {
-
-
     height: 100%;
     width: 34%;
     display: flex;
     flex-direction: column;
     gap: 40px;
-
     justify-content: center;
     align-items: center;
     position: relative;
@@ -76,26 +73,29 @@
 
 @media(max-width:850px) {
     .Container {
-        width: 37%;
+        width: 45%;
 
     }
 
     .ContentInfo {
 
-        width: 240px;
+        width: 90%;
+
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 30px;
+
+
+
 
 
     }
 
-
-
-
 }
 
 @media(max-width:700px) {
-    .Container {
-        width: 43%;
-
+    .ContentInfo {
+        padding-left: 0px;
     }
 
 }
@@ -112,7 +112,9 @@
 
     }
 
-
+    .ContentInfo {
+        align-items: center;
+    }
 
 
     .Container h2 {

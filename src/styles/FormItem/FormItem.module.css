@@ -60,12 +60,12 @@
 
 @media(max-width:850px) {
     .Container input {
-        width: 300px;
+        width: 270px;
     }
 
     .Container textarea {
 
-        width: 300px;
+        width: 270px;
     }
 }
 
