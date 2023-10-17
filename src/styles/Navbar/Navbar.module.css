@@ -1,14 +1,15 @@
 .logo {
 
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 80px;
-    height: 50px;
-    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
     text-transform: uppercase;
     color: #fff;
-
+    font-size: 26px;
 
 }
 
@@ -103,16 +104,17 @@
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
-        margin-top: 30px;
+
 
 
     }
 
-    .container span {
-        margin-top: 75px;
-        font-size: 24px;
-        text-align: center;
-        margin-left: 80px;
+    .logo {
+
+        margin-top: 130px;
+
+
+
     }
 
     .menuList {

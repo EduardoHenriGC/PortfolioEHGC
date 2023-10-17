@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <div className={styles.container}>
-            <span className={styles.logo}>Portfólio</span>
+            <div className={styles.logo}><span >Portfólio</span></div>
             <ButtonNavbar isOpen={isOpen} toggleMenu={toggleMenu} />
             <ul className={`${styles.menuList} ${isOpen ? styles.menuListOpen : styles.menuListClosed}`}>
                 <NavItem href="/" text="inicio" />
