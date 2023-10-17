@@ -10,8 +10,8 @@ export default function HomeSection() {
                 <div className={styles.bgImg}></div>
 
                 <div className={styles.infoContent}>
-                    <h3>About</h3>
-                    <span>biografia e sobre</span>
+                    <h3>Sobre</h3>
+                    <span>biografia e habilidades</span>
                 </div>
             </Link>
             <Link href="/projetos" className={`${styles.item} ${styles.item2}`}>
@@ -32,7 +32,7 @@ export default function HomeSection() {
                     <img src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64dba1e586380df2dd882764_service3.png" />
 
                 </div>
-                <h3>code</h3>
+                <h3>códigos</h3>
             </Link>
             <Link target="_blank" href="https://wa.me/+5545999579330" className={`${styles.item} ${styles.item4}`}>
 
