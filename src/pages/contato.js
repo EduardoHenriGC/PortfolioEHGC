@@ -9,7 +9,7 @@ export default function ContactPage() {
         <>
             <SiteMap
                 tema="Contato"
-                subtema="Email & telefone"
+                subtema="email & telefone"
                 src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64eca1770643323348849d4e_sitemap_contact.png" />
 
             <Contact />

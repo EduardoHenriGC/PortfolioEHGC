@@ -20,7 +20,7 @@ export default function HomeSection() {
                 <div className={styles.projectImgContent}>
                     <img src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64db7f1fea491f045ffde537_blog.jpg" />
                 </div>
-                <h3>Projetos</h3>
+                <h3>projetos</h3>
 
             </Link>
             <Link href="/repositorio" className={`${styles.item} ${styles.item3}`}>

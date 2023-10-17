@@ -17,7 +17,7 @@ export default function Projetos() {
 
             <CardProjetos src="https://img.freepik.com/vetores-premium/sinal-de-neon-de-tempo-de-teste-no-vetor-de-fundo-de-parede-de-tijolo_118419-3961.jpg?w=2000"
                 text="Next js"
-                subtitle="jogo de Perguntas"
+                subtitle="Jogo de Perguntas"
                 href="https://main--amvgquiz.netlify.app/" />
         </div>
     )

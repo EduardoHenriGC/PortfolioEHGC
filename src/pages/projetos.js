@@ -7,7 +7,7 @@ export default function ProjetosPage() {
         <>
             <SiteMap
                 tema="Projetos"
-                subtema="Jogos & desafios"
+                subtema="jogos & desafios"
                 src="https://assets-blog.hostgator.com.br/wp-content/uploads/2016/09/logica-de-programacao-blog.webp" />
             <Projetos />
         </>
