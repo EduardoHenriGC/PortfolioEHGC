@@ -7,7 +7,7 @@ export default function RepositorioPage() {
     return (
         <>
             <SiteMap
-                tema="Repositório"
+                tema="Repositórios"
                 subtema="ideias & soluções"
                 src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
             <Repositorios />

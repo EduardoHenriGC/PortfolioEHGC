@@ -26,7 +26,7 @@ export default function InfoItem({ value }) {
             <p>{value}</p>
             <FaCopy className={styles.btnCopy} onClick={() => handleCopyClick(value)} />
 
-            {showMessage && <span className={styles.CopiedMessage}>copy</span>}
+            {showMessage && <span>copy</span>}
         </div>
     )
 }

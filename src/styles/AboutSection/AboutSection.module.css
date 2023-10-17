@@ -29,7 +29,7 @@
 
 .contentImg {
     width: 90%;
-    height: 400px;
+    height: 510px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@
 .right img {
     width: 80px;
     animation: rotate 6s linear infinite;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .right p {
@@ -56,8 +56,8 @@
     margin: 0 auto;
     text-transform: uppercase;
     letter-spacing: 2px;
-    word-spacing: 3px;
-    line-height: 2rem;
+    word-spacing: 1px;
+    line-height: 1.8rem;
     color: #d3d3d3;
     ;
 }
@@ -95,8 +95,7 @@
         width: 100%;
         margin: 0 auto;
         text-transform: uppercase;
-        letter-spacing: 2px;
-        word-spacing: 3px;
+
         line-height: 2rem;
         color: #d3d3d3;
     }

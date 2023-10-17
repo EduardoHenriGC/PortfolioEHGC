@@ -10,7 +10,7 @@ export default function ContactPage() {
             <SiteMap
                 tema="Contato"
                 subtema="Email & telefone"
-                src="https://etica.ufms.br/files/2013/08/contato.jpg" />
+                src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64eca1770643323348849d4e_sitemap_contact.png" />
 
             <Contact />
         </>

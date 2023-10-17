@@ -1,0 +1,18 @@
+.Container {
+    border: 1px solid #313237;
+    width: 140px;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+}
+
+.Container img {
+    margin-right: 5px;
+}

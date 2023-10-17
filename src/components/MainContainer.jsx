@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Navbar from "./Navbar/index"
 import { Oswald } from 'next/font/google'
 
@@ -14,6 +15,7 @@ export default function MainContainer({ children }) {
       <div>
         {children}
       </div>
+      <Footer />
     </div>
   )
 

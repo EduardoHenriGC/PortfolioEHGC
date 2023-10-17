@@ -1,0 +1,324 @@
+/* HomeSection.module.css */
+.container {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 4fr 3fr 2fr 3fr;
+    gap: 15px;
+    height: 550px;
+}
+
+/* ITEM 1*/
+
+.item1 {
+    grid-row: span 2;
+    grid-column: span 1;
+    position: relative;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid #313237;
+}
+
+.item1:hover {
+    border: 2px solid #0064d8;
+}
+
+.bgImg {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("https://i.pinimg.com/originals/a0/7b/48/a07b48ca35d9ca59ce0b4464a250a9d0.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.item1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.infoContent {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+
+/* ITEM 2*/
+.item2 {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #313237;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    justify-content: space-between;
+
+    gap: 10px;
+
+
+}
+
+
+
+.item2:hover {
+    border: 2px solid #0064d8;
+}
+
+
+
+.item2 h3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+
+}
+
+.projectImgContent {
+    height: 140px;
+}
+
+.projectImgContent img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ITEM 3*/
+
+
+
+.item3 {
+    grid-row: span 1;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #17181d;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid #313237;
+
+
+}
+
+.item3 span,
+.item3 h3 {
+    color: #fff;
+    margin: 10px 15px;
+}
+
+.item3:hover {
+    border: 2px solid #0064d8;
+}
+
+.RepoContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.RepoContent img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #0064d8;
+    background-color: #1d1e23;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.item3:hover .RepoContent img {
+    animation: rotate 0.4s linear;
+}
+
+.item3:not(:hover) .RepoContent img {
+    animation: rotateInverse 0.4s linear;
+}
+
+
+/* ITEM 4*/
+.item4 {
+    grid-row: span 1;
+    grid-column: span 2;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://static.whatsapp.net/rsrc.php/v3/yR/r/y8-PTBaP90a.png");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 2px solid #313237;
+}
+
+.item4:hover {
+    border: 2px solid #0064d8;
+}
+
+
+/* ITEM 5*/
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #313237;
+    border-radius: 0.5rem;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.item5:hover {
+    border: 2px solid #0064d8;
+}
+
+.item5 h3 {
+    color: #d3d3d3;
+}
+
+
+.contactImg {
+
+    height: 140px;
+    width: 140px;
+}
+
+.contactImg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Animação usada no RepoContent*/
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        /* Iniciar a rotação a partir de 0 graus */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Terminar a rotação em 360 graus (uma volta completa) */
+    }
+}
+
+@keyframes rotateInverse {
+    from {
+        transform: rotate(360deg);
+        /* Iniciar a rotação a partir de 0 graus */
+    }
+
+    to {
+        transform: rotate(0deg);
+        /* Terminar a rotação em 360 graus (uma volta completa) */
+    }
+}
+
+@media(max-width:1050px) {
+
+    .container {
+        width: 95%;
+        height: 100%;
+
+
+    }
+
+    .item1 {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    .item2 {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    .item3 {
+        grid-row: span 1;
+        grid-column: span 4;
+    }
+
+    .item4 {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    .item5 {
+        grid-row: span 1;
+        grid-column: span 2;
+
+    }
+}
+
+
+
+@media(max-width:600px) {
+    .container {
+        width: 85%;
+        gap: 20px;
+    }
+
+
+    .item1 {
+        grid-row: span 1;
+        grid-column: span 4;
+    }
+
+    .item2 {
+        grid-row: span 1;
+        grid-column: span 4;
+    }
+
+    .item3 {
+        grid-row: span 1;
+        grid-column: span 4;
+    }
+
+    .RepoContent img {
+        margin-top: 15px;
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .item4 {
+        grid-row: span 1;
+        grid-column: span 4;
+        height: 160px;
+        background-size: cover;
+
+    }
+
+    .item5 {
+        grid-row: span 1;
+        grid-column: span 4;
+
+    }
+
+    .contactImg {
+
+
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+@media(max-width:300px) {
+
+    .RepoContent img {
+        height: 30px;
+        width: 30px;
+    }
+}

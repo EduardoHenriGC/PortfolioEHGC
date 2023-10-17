@@ -19,7 +19,9 @@ export default function AboutSection() {
             </div>
             <div className={styles.right}>
                 <img src="https://uploads-ssl.webflow.com/64d0b64341df5d5d652f8857/64e720e3d4e8dc2b8cb2dc47_circle.png"></img>
-                <p>Olá, sou Eduardo Henrique Gonçalves um desenvolvedor fullstack Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever since the 1500s, when an unknown printer took.here are many variations of passages of Lorem Ipsum available, but the majority have suffered passages of Lorem Ipsum available, but the majority have suffered.</p>
+                <p>seja bem-vindo ao meu cantinho virtual! Meu nome é Eduardo Henrique Gonçalves, e eu sou um entusiasta da tecnologia, apaixonado por criar soluções inovadoras e funcionais para desafios digitais. Como programador fullstack, minha jornada nesse vasto mundo da programação começou com um fascínio por linhas de código e a vontade infindável de transformar ideias em realidade.
+
+                    Mergulhei fundo no universo da programação, explorando tanto o front-end quanto o back-end do desenvolvimento de software. A cada novo projeto, me dedico a construir experiências excepcionais para os usuários, Neste site, você encontrará informações sobre meu trabalho, projetos anteriores e meu compromisso com a qualidade e a inovação. Fique à vontade para explorar e descobrir mais sobre mim e minhas paixões no mundo da programação.</p>
             </div>
         </div>
     )
