@@ -82,9 +82,19 @@
         width: 100%;
     }
 
+    .contentInfo {
+        margin-left: 0;
+    }
+
     .left {
+        width: 90%;
+    }
+
+    .contentImg {
+
         width: 70%;
     }
+
 
     .right {
         width: 90%;
@@ -103,7 +113,10 @@
 
 @media(max-width:700px) {
 
-    .left {
+    .contentImg {
         width: 90%;
     }
+
+
+
 }
